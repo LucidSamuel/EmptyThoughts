@@ -188,7 +188,7 @@ document.querySelectorAll('.button').forEach(button => {
 // Unsplash 
 const numImagesAvailable = 982  //how many photos are total in the collection
 const numItemsToGenerate = 1; //how many photos you want to display
-const collectionID = 928423   //the collection ID from the original url
+const collectionID = 583204   //the collection ID from the original url
 const galleryContainer = document.querySelector('.gallery-container')
 function renderGalleryItem(randomNumber){ 
   fetch(`https://source.unsplash.com/collection/${583204}/?sig=${randomNumber}`)
